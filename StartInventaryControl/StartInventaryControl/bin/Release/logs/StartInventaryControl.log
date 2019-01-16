@@ -1,0 +1,15 @@
+21/01/2018 - 13:34:29.1706 -  Info - 00010012 - 00000009 - StartInventaryControl.App - Starting application.
+21/01/2018 - 13:35:15.9843 -  Info - 00010012 - 00000009 - StartInventaryControl.App - Application successfully started.
+29/01/2018 - 22:03:01.4831 -  Info - 00003320 - 00000010 - StartInventaryControl.App - Starting application.
+29/01/2018 - 22:03:06.5574 -  Info - 00003320 - 00000010 - StartInventaryControl.App - Application successfully started.
+29/01/2018 - 22:03:06.5644 -  Info - 00003320 - 00000010 - StartInventaryControl.App - Application finished.
+29/01/2018 - 23:09:55.3417 -  Info - 00008104 - 00000009 - StartInventaryControl.App - Starting application.
+29/01/2018 - 23:10:34.9860 - Error - 00008104 - 00000009 - StartInventaryControl.MainPresenter - Error while edit product: System.Exception: Um erro occoreu ao tentar editar este produto: Nenhum genero cadastrado. ---> System.Exception: Nenhum genero cadastrado.
+   at StartInventaryControl.Data.EntityExtensions.CreateVariations(Product product, IList`1 genders, IList`1 colors, IList`1 sizes) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Data\EntityExtensions.cs:line 255
+   at StartInventaryControl.Views.EditProductPresenter.InitializeVariationsInProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 59
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 40
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 51
+   at StartInventaryControl.Views.ApplicationController.HandleEditProduct(Product product) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ApplicationController.cs:line 79
+   at StartInventaryControl.MainPresenter.OnEditProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\MainPresenter.cs:line 101
+29/01/2018 - 23:11:22.8357 -  Info - 00008104 - 00000009 - StartInventaryControl.App - Application successfully started.

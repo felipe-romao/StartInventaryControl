@@ -1,0 +1,48 @@
+﻿<Window x:Class="StartInventaryControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StartInventaryControl"
+        mc:Ignorable="d"
+        Title="Start" Height="350" Width="525" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Menu x:Name="mainMenu" IsMainMenu="True" Grid.Row="0" Margin="10,0,10,0" >
+            <MenuItem Header="_Produto">
+                <MenuItem x:Name="editProductMenuItem" Header="_Cadastrar"/>
+                <MenuItem x:Name="productsMenuItem" Header="_Listar"/>
+                <MenuItem Header="_Variações">
+                    <MenuItem x:Name="editVariationTypeMenuItem" Header="_Cadastrar"/>
+                    <MenuItem x:Name="variationTypesMenuItem" Header="_Listar"/>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="_Estoque">
+                <MenuItem Header="_Entrada">
+                    <MenuItem x:Name="editProductEntryMenuItem" Header="_Cadastrar"/>
+                    <MenuItem x:Name="productEntryMenuItem" Header="_Listar"/>
+                </MenuItem>
+                <MenuItem Header="_Saida">
+                    <MenuItem x:Name="editProductIssueMenuItem" Header="_Cadastrar"/>
+                    <MenuItem x:Name="productIssueMenuItem" Header="_Listar"/>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="_Fornecedor">
+                <MenuItem x:Name="editSupplierMenuItem" Header="_Cadastrar"/>
+                <MenuItem x:Name="suppliersMenuItem" Header="_Listar"/>
+            </MenuItem>
+
+        </Menu>
+
+    </Grid>
+</Window>

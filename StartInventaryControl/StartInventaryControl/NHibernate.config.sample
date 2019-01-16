@@ -1,0 +1,25 @@
+﻿<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+  <session-factory>
+	<!-- Connection to SQLite database-->
+    <property name="connection.provider">NHibernate.Connection.DriverConnectionProvider</property>    
+    <property name="dialect">NHibernate.Dialect.SQLiteDialect</property>
+    <property name="connection.driver_class">NHibernate.Driver.SQLite20Driver</property>
+    <property name="connection.connection_string">Data Source=C:\DB.sqlite;Version=3</property>
+    <property name="show_sql">true</property>
+	
+	<!-- Connection to MySQL database-->
+	<property name="connection.provider">NHibernate.Connection.DriverConnectionProvider</property>    
+    <property name="dialect">NHibernate.Dialect.MySQL5Dialect</property>
+    <property name="connection.driver_class">NHibernate.Driver.MySqlDataDriver</property>
+    <property name="connection.connection_string">server=localhost;port=3306;Database=matchingtool;uid=USER;pwd=PASSWORD;MinPoolSize=1;MaxPoolSize=1</property>
+    <property name="show_sql">true</property>
+	
+	<!-- Connection to SQL Server database-->
+	<property name="connection.provider">NHibernate.Connection.DriverConnectionProvider</property>    
+    <property name="dialect">NHibernate.Dialect.MsSql2012Dialect</property>
+    <property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
+    <property name="connection.connection_string">Server=(local);Initial Catalog=MatchingTool;User Id=USER;Password=PASSWORD</property>
+    <property name="show_sql">true</property>
+	<property name="format_sql">True</property> 
+  </session-factory>
+</hibernate-configuration>

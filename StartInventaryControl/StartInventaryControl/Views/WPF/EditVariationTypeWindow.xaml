@@ -1,0 +1,29 @@
+﻿<Window x:Class="StartInventaryControl.Views.WPF.EditVariationTypeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StartInventaryControl.Views.WPF"
+        mc:Ignorable="d"
+        Title="Start - Variações de produto" Height="200" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Label x:Name="typeLabel" Content="Tipo"  Grid.Row="0"  Margin="15,0,15,0" Padding="0,5"/>
+        <ComboBox x:Name="variationTypeCombobox" Grid.Row="1" Margin="15,0,15,0"/>
+        
+        <Label x:Name="valueLabel" Content="Valor"  Grid.Row="2"  Margin="15,0,15,0" Padding="0,5"/>
+        <TextBox x:Name="variationValueTextBox" Grid.Row="3" Margin="15,0,15,0"/>
+
+        <StackPanel Grid.Row="4" Margin="10,10,10,19" Orientation="Horizontal"  VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <Button x:Name="salveVariationTypeButton" Content="Salvar" HorizontalAlignment="Right" Margin="10,5,0,5" MinWidth="100" Width="100" Height="25"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

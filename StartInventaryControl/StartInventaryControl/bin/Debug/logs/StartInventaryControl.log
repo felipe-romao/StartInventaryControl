@@ -1,0 +1,252 @@
+21/01/2018 - 17:38:46.8316 -  Info - 00006424 - 00000009 - StartInventaryControl.App - Starting application.
+22/01/2018 - 22:53:35.3762 -  Info - 00002136 - 00000008 - StartInventaryControl.App - Starting application.
+22/01/2018 - 23:01:05.9970 -  Info - 00002136 - 00000008 - StartInventaryControl.App - Application successfully started.
+22/01/2018 - 23:04:35.8850 -  Info - 00010000 - 00000008 - StartInventaryControl.App - Starting application.
+22/01/2018 - 23:06:54.1639 -  Info - 00010000 - 00000008 - StartInventaryControl.App - Application successfully started.
+22/01/2018 - 23:17:13.0023 -  Info - 00008720 - 00000009 - StartInventaryControl.App - Starting application.
+22/01/2018 - 23:17:18.8626 -  Info - 00008720 - 00000009 - StartInventaryControl.App - Application successfully started.
+22/01/2018 - 23:17:18.8696 -  Info - 00008720 - 00000009 - StartInventaryControl.App - Application finished.
+25/01/2018 - 22:57:29.1049 -  Info - 00001028 - 00000009 - StartInventaryControl.App - Starting application.
+25/01/2018 - 22:58:04.8639 - Error - 00001028 - 00000009 - StartInventaryControl.Views.EditSupplierPresenter - Error while salved supplier:Não foi possível adicionar o fornecedor'FORNECEDOR_1_edit': could not insert: [StartInventaryControl.Data.Supplier][SQL: INSERT INTO Supplier (Name) VALUES (?);SELECT LAST_INSERT_ID()]
+25/01/2018 - 22:58:29.2043 - Error - 00001028 - 00000009 - StartInventaryControl.Views.EditSupplierPresenter - Error while salved supplier:Não foi possível atualizar o fornecedor'FORNECEDOR_2': Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [StartInventaryControl.Data.Supplier#0]
+25/01/2018 - 22:58:40.3310 -  Info - 00001028 - 00000009 - StartInventaryControl.App - Application successfully started.
+25/01/2018 - 22:58:40.3690 -  Info - 00001028 - 00000009 - StartInventaryControl.App - Application finished.
+25/01/2018 - 22:59:28.4217 -  Info - 00002528 - 00000009 - StartInventaryControl.App - Starting application.
+25/01/2018 - 22:59:38.7543 - Error - 00002528 - 00000009 - StartInventaryControl.Views.SupplierPresenter - Error while updated supplier: System.Exception: Ocorreu um erro ao tentar editar o fornecedor: Object reference not set to an instance of an object. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at StartInventaryControl.Views.EditSupplierPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditSupplierPresenter.cs:line 32
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Views.EditSupplierPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditSupplierPresenter.cs:line 36
+   at StartInventaryControl.Views.ApplicationController.HandleEditSupplier(Supplier supplier) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ApplicationController.cs:line 91
+   at StartInventaryControl.Views.SupplierPresenter.OnUpdatedSupplier() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\SupplierPresenter.cs:line 58
+25/01/2018 - 23:00:26.4971 -  Info - 00002528 - 00000009 - StartInventaryControl.App - Application successfully started.
+25/01/2018 - 23:03:04.1931 -  Info - 00007748 - 00000009 - StartInventaryControl.App - Starting application.
+25/01/2018 - 23:03:42.5413 - Error - 00007748 - 00000009 - StartInventaryControl.Views.EditSupplierPresenter - Error while salved supplier:Não foi possível adicionar o fornecedor'FORNECEDOR_2': could not insert: [StartInventaryControl.Data.Supplier][SQL: INSERT INTO Supplier (Name) VALUES (?);SELECT LAST_INSERT_ID()]
+25/01/2018 - 23:20:32.3530 - Error - 00007748 - 00000009 - StartInventaryControl.Views.EditSupplierPresenter - Error while salved supplier:Não foi possível adicionar o fornecedor'FORNECEDOR_2': could not insert: [StartInventaryControl.Data.Supplier][SQL: INSERT INTO Supplier (Name) VALUES (?);SELECT LAST_INSERT_ID()]
+25/01/2018 - 23:22:47.3317 -  Info - 00007748 - 00000009 - StartInventaryControl.App - Application successfully started.
+25/01/2018 - 23:22:47.3317 -  Info - 00007748 - 00000009 - StartInventaryControl.App - Application finished.
+25/01/2018 - 23:45:01.2150 -  Info - 00008856 - 00000009 - StartInventaryControl.App - Starting application.
+25/01/2018 - 23:46:57.2017 -  Info - 00008856 - 00000009 - StartInventaryControl.App - Application successfully started.
+25/01/2018 - 23:46:57.2017 -  Info - 00008856 - 00000009 - StartInventaryControl.App - Application finished.
+26/01/2018 - 22:26:37.6113 -  Info - 00007352 - 00000010 - StartInventaryControl.App - Starting application.
+26/01/2018 - 22:28:05.2773 -  Info - 00007352 - 00000010 - StartInventaryControl.App - Application successfully started.
+26/01/2018 - 22:28:05.2773 -  Info - 00007352 - 00000010 - StartInventaryControl.App - Application finished.
+27/01/2018 - 12:53:24.2020 -  Info - 00007452 - 00000009 - StartInventaryControl.App - Starting application.
+27/01/2018 - 12:57:15.8433 -  Info - 00007452 - 00000009 - StartInventaryControl.App - Application successfully started.
+27/01/2018 - 12:57:15.8433 -  Info - 00007452 - 00000009 - StartInventaryControl.App - Application finished.
+27/01/2018 - 13:28:57.7405 -  Info - 00006328 - 00000009 - StartInventaryControl.App - Starting application.
+27/01/2018 - 13:29:01.9237 -  Info - 00006328 - 00000009 - StartInventaryControl.App - Application successfully started.
+27/01/2018 - 13:29:01.9237 -  Info - 00006328 - 00000009 - StartInventaryControl.App - Application finished.
+27/01/2018 - 13:32:15.2798 -  Info - 00008024 - 00000009 - StartInventaryControl.App - Starting application.
+27/01/2018 - 13:33:03.1415 -  Info - 00008024 - 00000009 - StartInventaryControl.App - Application successfully started.
+27/01/2018 - 13:33:03.1415 -  Info - 00008024 - 00000009 - StartInventaryControl.App - Application finished.
+27/01/2018 - 18:36:38.2457 -  Info - 00006304 - 00000009 - StartInventaryControl.App - Starting application.
+27/01/2018 - 18:38:30.3921 -  Info - 00006304 - 00000009 - StartInventaryControl.App - Application successfully started.
+27/01/2018 - 18:38:30.4031 -  Info - 00006304 - 00000009 - StartInventaryControl.App - Application finished.
+27/01/2018 - 18:48:45.9593 -  Info - 00008228 - 00000009 - StartInventaryControl.App - Starting application.
+27/01/2018 - 18:50:32.8444 -  Info - 00008228 - 00000009 - StartInventaryControl.App - Application successfully started.
+27/01/2018 - 18:50:32.8514 -  Info - 00008228 - 00000009 - StartInventaryControl.App - Application finished.
+28/01/2018 - 14:01:24.5518 -  Info - 00001864 - 00000010 - StartInventaryControl.App - Starting application.
+28/01/2018 - 14:05:47.7528 -  Info - 00001864 - 00000010 - StartInventaryControl.App - Application successfully started.
+28/01/2018 - 14:05:47.7598 -  Info - 00001864 - 00000010 - StartInventaryControl.App - Application finished.
+28/01/2018 - 14:59:11.1102 -  Info - 00007784 - 00000009 - StartInventaryControl.App - Starting application.
+28/01/2018 - 15:00:30.7098 -  Info - 00007784 - 00000009 - StartInventaryControl.App - Application successfully started.
+28/01/2018 - 15:00:30.7328 -  Info - 00007784 - 00000009 - StartInventaryControl.App - Application finished.
+28/01/2018 - 15:50:19.6997 -  Info - 00009404 - 00000009 - StartInventaryControl.App - Starting application.
+28/01/2018 - 15:51:26.3856 - Error - 00009404 - 00000009 - StartInventaryControl.Views.EditVariationTypePresenter - Error while salved variation type:Tipo de variação 'GENERO'/'MASCULINO' já existe.
+28/01/2018 - 15:51:44.2186 - Error - 00009404 - 00000009 - StartInventaryControl.Views.EditVariationTypePresenter - Error while salved variation type:Tipo de variação 'GENERO'/'MASCULINO' já existe.
+28/01/2018 - 16:04:42.1691 -  Info - 00004380 - 00000009 - StartInventaryControl.App - Starting application.
+28/01/2018 - 16:05:08.4696 - Error - 00004380 - 00000009 - StartInventaryControl.App - Error while initialized application: System.Exception: Um erro occoreu ao tentar editar este produto: Nenhum tamanho cadastrado. ---> System.Exception: Nenhum tamanho cadastrado.
+   at StartInventaryControl.Data.EntityExtensions.CreateVariations(Product product, IList`1 genders, IList`1 colors, IList`1 sizes) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Data\EntityExtensions.cs:line 263
+   at StartInventaryControl.Views.EditProductPresenter.InitializeVariationsInProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 59
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 40
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 51
+   at StartInventaryControl.Views.ApplicationController.HandleEditProduct(Product product) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ApplicationController.cs:line 79
+   at StartInventaryControl.MainPresenter.OnEditProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\MainPresenter.cs:line 56
+   at StartInventaryControl.MainWindow.<.ctor>b__0_5(Object sender, RoutedEventArgs args) in D:\application_csharp\StartInventaryControl\StartInventaryControl\MainWindow.xaml.cs:line 22
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   at System.Windows.Controls.MenuItem.InvokeClickAfterRender(Object arg)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.DispatcherOperation.InvokeImpl()
+   at System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Threading.DispatcherOperation.Invoke()
+   at System.Windows.Threading.Dispatcher.ProcessQueue()
+   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at StartInventaryControl.Views.ApplicationController.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ApplicationController.cs:line 32
+   at StartInventaryControl.App.AppStartup(Object sender, StartupEventArgs e) in D:\application_csharp\StartInventaryControl\StartInventaryControl\App.xaml.cs:line 37
+28/01/2018 - 16:23:11.3455 -  Info - 00012104 - 00000008 - StartInventaryControl.App - Starting application.
+28/01/2018 - 16:23:26.8984 - Error - 00012104 - 00000008 - StartInventaryControl.MainPresenter - Error while edit product: System.Exception: Um erro occoreu ao tentar editar este produto: Nenhum tamanho cadastrado. ---> System.Exception: Nenhum tamanho cadastrado.
+   at StartInventaryControl.Data.EntityExtensions.CreateVariations(Product product, IList`1 genders, IList`1 colors, IList`1 sizes) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Data\EntityExtensions.cs:line 263
+   at StartInventaryControl.Views.EditProductPresenter.InitializeVariationsInProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 59
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 40
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 51
+   at StartInventaryControl.Views.ApplicationController.HandleEditProduct(Product product) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ApplicationController.cs:line 79
+   at StartInventaryControl.MainPresenter.OnEditProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\MainPresenter.cs:line 101
+28/01/2018 - 16:23:56.5311 - Error - 00012104 - 00000008 - StartInventaryControl.MainPresenter - Error while edit product: System.Exception: Um erro occoreu ao tentar editar este produto: Nenhum tamanho cadastrado. ---> System.Exception: Nenhum tamanho cadastrado.
+   at StartInventaryControl.Data.EntityExtensions.CreateVariations(Product product, IList`1 genders, IList`1 colors, IList`1 sizes) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Data\EntityExtensions.cs:line 263
+   at StartInventaryControl.Views.EditProductPresenter.InitializeVariationsInProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 59
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 40
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 51
+   at StartInventaryControl.Views.ApplicationController.HandleEditProduct(Product product) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ApplicationController.cs:line 79
+   at StartInventaryControl.MainPresenter.OnEditProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\MainPresenter.cs:line 101
+28/01/2018 - 16:24:00.6753 - Error - 00012104 - 00000008 - StartInventaryControl.MainPresenter - Error while edit product: System.Exception: Um erro occoreu ao tentar editar este produto: Nenhum tamanho cadastrado. ---> System.Exception: Nenhum tamanho cadastrado.
+   at StartInventaryControl.Data.EntityExtensions.CreateVariations(Product product, IList`1 genders, IList`1 colors, IList`1 sizes) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Data\EntityExtensions.cs:line 263
+   at StartInventaryControl.Views.EditProductPresenter.InitializeVariationsInProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 59
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 40
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 51
+   at StartInventaryControl.Views.ApplicationController.HandleEditProduct(Product product) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ApplicationController.cs:line 79
+   at StartInventaryControl.MainPresenter.OnEditProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\MainPresenter.cs:line 101
+28/01/2018 - 16:24:22.9616 - Error - 00012104 - 00000008 - StartInventaryControl.MainPresenter - Error while edit product: System.Exception: Um erro occoreu ao tentar editar este produto: Nenhum tamanho cadastrado. ---> System.Exception: Nenhum tamanho cadastrado.
+   at StartInventaryControl.Data.EntityExtensions.CreateVariations(Product product, IList`1 genders, IList`1 colors, IList`1 sizes) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Data\EntityExtensions.cs:line 263
+   at StartInventaryControl.Views.EditProductPresenter.InitializeVariationsInProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 59
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 40
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 51
+   at StartInventaryControl.Views.ApplicationController.HandleEditProduct(Product product) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ApplicationController.cs:line 79
+   at StartInventaryControl.MainPresenter.OnEditProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\MainPresenter.cs:line 101
+28/01/2018 - 16:24:49.7331 - Error - 00012104 - 00000008 - StartInventaryControl.Views.ProductPresenter - Error while added product: System.Exception: Um erro occoreu ao tentar editar este produto: Nenhum tamanho cadastrado. ---> System.Exception: Nenhum tamanho cadastrado.
+   at StartInventaryControl.Data.EntityExtensions.CreateVariations(Product product, IList`1 genders, IList`1 colors, IList`1 sizes) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Data\EntityExtensions.cs:line 263
+   at StartInventaryControl.Views.EditProductPresenter.InitializeVariationsInProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 59
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 40
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Views.EditProductPresenter.Initialize() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\EditProductPresenter.cs:line 51
+   at StartInventaryControl.Views.ApplicationController.HandleEditProduct(Product product) in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ApplicationController.cs:line 79
+   at StartInventaryControl.Views.ProductPresenter.OnAddedProduct() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Views\ProductPresenter.cs:line 47
+28/01/2018 - 16:37:35.2411 -  Info - 00007392 - 00000010 - StartInventaryControl.App - Starting application.
+28/01/2018 - 18:22:50.8672 -  Info - 00007392 - 00000010 - StartInventaryControl.App - Application successfully started.
+28/01/2018 - 18:22:50.8672 -  Info - 00007392 - 00000010 - StartInventaryControl.App - Application finished.
+28/01/2018 - 18:25:04.3758 -  Info - 00009380 - 00000008 - StartInventaryControl.App - Starting application.
+28/01/2018 - 18:26:35.5460 - Error - 00009380 - 00000008 - StartInventaryControl.Views.EditVariationTypePresenter - Error while salved variation type:Tipo de variação 'GENERO'/'MASCULINO' já existe.
+28/01/2018 - 18:37:14.1976 -  Info - 00009380 - 00000008 - StartInventaryControl.App - Application successfully started.
+28/01/2018 - 18:37:14.1976 -  Info - 00009380 - 00000008 - StartInventaryControl.App - Application finished.
+28/01/2018 - 19:04:15.1633 -  Info - 00010540 - 00000009 - StartInventaryControl.App - Starting application.
+28/01/2018 - 19:04:17.5184 - Error - 00010540 - 00000009 - StartInventaryControl.App - Error while initialized application: StartInventaryControl.Repository.RepositoryException: Não foi possível obter todas as variações: could not execute query
+[ SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_ ]
+[SQL: SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_] ---> NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_ ]
+[SQL: SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_] ---> System.Data.SQLite.SQLiteException: SQL logic error or missing database
+no such table: VariationType
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List[T]()
+   at NHibernate.Criterion.QueryOver`1.List()
+   at NHibernate.Criterion.QueryOver`1.NHibernate.IQueryOver<TRoot>.List()
+   at StartInventaryControl.Repository.NHibernate.VariationTypeRepository.GetAll() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Repository\NHibernate\VariationTypeRepository.cs:line 68
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Repository.NHibernate.VariationTypeRepository.GetAll() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Repository\NHibernate\VariationTypeRepository.cs:line 72
+   at StartInventaryControl.Bootstrapper..ctor() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Bootstrapper.cs:line 13
+   at StartInventaryControl.App.AppStartup(Object sender, StartupEventArgs e) in D:\application_csharp\StartInventaryControl\StartInventaryControl\App.xaml.cs:line 35
+28/01/2018 - 19:04:41.2258 -  Info - 00011656 - 00000008 - StartInventaryControl.App - Starting application.
+28/01/2018 - 19:04:43.3799 - Error - 00011656 - 00000008 - StartInventaryControl.App - Error while initialized application: StartInventaryControl.Repository.RepositoryException: Não foi possível obter todas as variações: could not execute query
+[ SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_ ]
+[SQL: SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_] ---> NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_ ]
+[SQL: SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_] ---> System.Data.SQLite.SQLiteException: SQL logic error or missing database
+no such column: this_.VariationTypeID
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List[T]()
+   at NHibernate.Criterion.QueryOver`1.List()
+   at NHibernate.Criterion.QueryOver`1.NHibernate.IQueryOver<TRoot>.List()
+   at StartInventaryControl.Repository.NHibernate.VariationTypeRepository.GetAll() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Repository\NHibernate\VariationTypeRepository.cs:line 68
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Repository.NHibernate.VariationTypeRepository.GetAll() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Repository\NHibernate\VariationTypeRepository.cs:line 72
+   at StartInventaryControl.Bootstrapper..ctor() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Bootstrapper.cs:line 13
+   at StartInventaryControl.App.AppStartup(Object sender, StartupEventArgs e) in D:\application_csharp\StartInventaryControl\StartInventaryControl\App.xaml.cs:line 35
+28/01/2018 - 19:05:50.1897 -  Info - 00009032 - 00000009 - StartInventaryControl.App - Starting application.
+28/01/2018 - 19:05:52.1898 - Error - 00009032 - 00000009 - StartInventaryControl.App - Error while initialized application: StartInventaryControl.Repository.RepositoryException: Não foi possível obter todas as variações: could not execute query
+[ SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_ ]
+[SQL: SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_] ---> NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_ ]
+[SQL: SELECT this_.VariationTypeID as Variat1_7_0_, this_.Type as Type2_7_0_, this_.Value as Value3_7_0_ FROM VariationType this_] ---> System.Data.SQLite.SQLiteException: SQL logic error or missing database
+no such column: this_.VariationTypeID
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List[T]()
+   at NHibernate.Criterion.QueryOver`1.List()
+   at NHibernate.Criterion.QueryOver`1.NHibernate.IQueryOver<TRoot>.List()
+   at StartInventaryControl.Repository.NHibernate.VariationTypeRepository.GetAll() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Repository\NHibernate\VariationTypeRepository.cs:line 68
+   --- End of inner exception stack trace ---
+   at StartInventaryControl.Repository.NHibernate.VariationTypeRepository.GetAll() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Repository\NHibernate\VariationTypeRepository.cs:line 72
+   at StartInventaryControl.Bootstrapper..ctor() in D:\application_csharp\StartInventaryControl\StartInventaryControl\Bootstrapper.cs:line 13
+   at StartInventaryControl.App.AppStartup(Object sender, StartupEventArgs e) in D:\application_csharp\StartInventaryControl\StartInventaryControl\App.xaml.cs:line 35
+28/01/2018 - 19:07:31.7415 -  Info - 00012568 - 00000009 - StartInventaryControl.App - Starting application.
+28/01/2018 - 19:11:22.1417 -  Info - 00009192 - 00000010 - StartInventaryControl.App - Starting application.
+28/01/2018 - 19:11:30.6502 -  Info - 00009192 - 00000010 - StartInventaryControl.App - Application successfully started.
+28/01/2018 - 19:11:30.6542 -  Info - 00009192 - 00000010 - StartInventaryControl.App - Application finished.
+29/01/2018 - 22:01:49.9590 -  Info - 00006224 - 00000009 - StartInventaryControl.App - Starting application.
+29/01/2018 - 22:02:37.3518 -  Info - 00006224 - 00000009 - StartInventaryControl.App - Application successfully started.
+29/01/2018 - 22:02:37.3518 -  Info - 00006224 - 00000009 - StartInventaryControl.App - Application finished.
